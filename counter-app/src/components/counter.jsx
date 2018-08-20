@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Counter extends Component {
   state = {
-    count: 0
+    count: this.props.value
 
     // imageUrl: "https://picsum.photos/200"
   };
@@ -32,6 +32,7 @@ class Counter extends Component {
   //   };
 
   render() {
+    // console.log("props", this.props);
     return (
       <div>
         {/* <img src={this.state.imageUrl} alt="" /> */}
