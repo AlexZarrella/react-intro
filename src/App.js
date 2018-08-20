@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
+      // JS XML-- Babel converts to code that browser's can understand
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
