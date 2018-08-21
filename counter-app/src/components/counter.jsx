@@ -27,15 +27,10 @@ class Counter extends Component {
     this.setState({ count: this.state.count + 1 });
   };
 
-  //   doHandleIncrement = () => {
-  //     this.handleIncrement({ id: 1 });
-  //   };
-
   render() {
     // console.log("props", this.props);
     return (
       <div>
-        {/* {this.props.children} */}
         {/* <img src={this.state.imageUrl} alt="" /> */}
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
